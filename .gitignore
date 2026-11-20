@@ -1,0 +1,74 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Virtual environments — NEVER commit these
+.venv/
+venv/
+env/
+ENV/
+.env
+
+# Node / Frontend — NEVER commit these
+frontend/node_modules/
+frontend/.next/
+frontend/out/
+frontend/.pnp
+frontend/.pnp.js
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+frontend/.turbo
+
+# Node at root level (just in case)
+node_modules/
+.next/
+out/
+
+# Environment secret files
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+backend/.env
+
+# ML data files (large Kaggle datasets)
+backend/app/ml/data/
+*.csv.gz
+
+# SQLite databases (auto-created at runtime)
+*.db
+*.sqlite
+*.sqlite3
+
+# Logs
+*.log
+logs/
+
+# IDE / OS
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Docker
+.dockerenv
+
+# Coverage
+htmlcov/
+.coverage
+.coverage.*
+coverage.xml
+*.cover
+
+# Pytest
+.pytest_cache/
